@@ -132,6 +132,61 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.participants-list li {
+  padding: 6px 0;
+  color: #555;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.participants-list li:hover {
+  color: #1a237e;
+}
+
+.participants-list li span {
+  flex: 1;
+}
+
+.delete-participant {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  line-height: 1;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.delete-participant:hover {
+  background-color: #b71c1c;
+}
+
 .hidden {
   display: none;
 }
